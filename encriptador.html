@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="codigo.js"></script>    
+    <header>
+        <img class="logo" src="imagenes/Logo.png" alt="logo de Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" id="texto-ingresado" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">ⓘ Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar" onclick="encriptar(),quitarImg()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="desencriptar(),quitarImg()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <div>      
+            
+                 <textarea class="mensaje" id="mensaje" cols="20" rows="12" placeholder="Mensaje no encontrado"></textarea>
+            
+            </div>
+            <div>
+                <button class="boton-copiar" id="boton-copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    
+</body>
+<footer>
+    <p>Mayra Alejandra Ramírez Muñoz</p>
+</footer>
+<script>
+
+</script>
+</html>
